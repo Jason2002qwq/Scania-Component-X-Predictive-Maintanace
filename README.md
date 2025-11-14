@@ -80,7 +80,7 @@ The notebook includes a comprehensive suite of visualizations to understand the 
 2.  **Install Dependencies**:
     Ensure you have all required libraries installed. You can typically do this using `pip`:
     ```bash
-    pip install -r requirements.txt # (assuming a requirements.txt file exists)
+    pip install -r requirements.txt
     # Or manually install: pandas numpy scikit-learn xgboost matplotlib seaborn
     ```
 3.  **Prepare Data**: Place the `train_operational_readouts.csv`, `train_tte.csv`, `train_specifications.csv`, `validation_operational_readouts.csv`, `validation_labels.csv`, `validation_specifications.csv`, `test_operational_readouts.csv`, `test_labels.csv`, and `test_specifications.csv` files in the specified `datapath` (e.g., `/content/drive/MyDrive/MA6514/data` as used in the notebook).
